@@ -4,7 +4,10 @@ import '../App.css'
 const Feed = () => {
   return (
     <div>
-      <div className="feedContainer">working</div>
+      <div className="feedContainer">
+
+        
+      </div>
     </div>
   )
 }
