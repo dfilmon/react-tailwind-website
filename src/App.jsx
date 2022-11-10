@@ -1,28 +1,19 @@
 import React from 'react'
+import Header from './components/Header'
+import LeftNav from './components/LeftNav'
+import Feed from './components/Feed'
+import Connections from './components/Connections'
+import './App.css'
 import styles from './style'
 
 const App = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden ">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>Navbar</div>
-      </div>
-
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>Hero</div>
-      </div>
-
-      <div className={`bg-primary ${styles.flexStart} ${styles.paddingX}`}>
-        <div className={`${styles.boxWidth}`}>
-          Stats
-          Business
-          Billing
-          CardDeal
-          Testimonials
-          Clients
-          CTA
-          Footer
-        </div>
+    <div>
+      <Header />
+      <div className="contentContainer">
+        <LeftNav />
+        <Feed />
+        <Connections />
       </div>
     </div>
   )

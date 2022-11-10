@@ -1,0 +1,31 @@
+.headerContainer {
+  width: 98.5vw;
+  height: 80px;
+  background-color: blue;
+}
+
+.leftNavContainer {
+  width: 10vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.feedContainer {
+  width: 73vw;
+  height: 100vh;
+  background-color: green;
+}
+
+.connectionContainer {
+  width: 13vw;
+  height: 100vh;
+  background-color: purple;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 98.5vw;
+  height: 99vh;
+  background-color: yellow;
+}
